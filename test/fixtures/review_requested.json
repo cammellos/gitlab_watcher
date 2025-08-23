@@ -1,0 +1,134 @@
+{
+    "id": 1,
+    "project": {
+      "id": 2,
+      "description": "project-description",
+      "name": "project-name",
+      "name_with_namespace": "a/b/c",
+      "path": "path",
+      "path_with_namespace": "path-with-namespace",
+      "created_at": "2019-09-27T14:11:17.730Z"
+    },
+    "author": {
+      "id": 3,
+      "username": "author.username",
+      "public_email": "author.username@gitlab.com",
+      "name": "author-name",
+      "state": "active",
+      "locked": false,
+      "avatar_url": "avatar-url",
+      "web_url": "web-url"
+    },
+    "action_name": "review_requested",
+    "target_type": "MergeRequest",
+    "target": {
+      "id": 20,
+      "iid": 21,
+      "project_id": 23,
+      "title": "mr-title",
+      "description": "mr-title",
+      "state": "opened",
+      "created_at": "2025-08-22T11:27:16.054Z",
+      "updated_at": "2025-08-22T11:37:43.347Z",
+      "merged_by": null,
+      "merge_user": null,
+      "merged_at": null,
+      "closed_by": null,
+      "closed_at": null,
+      "target_branch": "master",
+      "source_branch": "source-branch",
+      "user_notes_count": 1,
+      "upvotes": 0,
+      "downvotes": 0,
+      "author": {
+        "id": 1,
+        "username": "author-username",
+        "public_email": "author-email",
+        "name": "author-name",
+        "state": "active",
+        "locked": false,
+        "avatar_url": "author-avatar-url",
+        "web_url": "author-web-url"
+      },
+      "assignees": [
+        {
+          "id": 1,
+          "username": "assignee-username",
+          "public_email": "assigner-email",
+          "name": "assignee-name",
+          "state": "active",
+          "locked": false,
+          "avatar_url": "assignee-url",
+          "web_url": "assignee-web-url"
+        }
+      ],
+      "reviewers": [
+        {
+          "id": 3,
+          "username": "reviewer-username",
+          "public_email": "",
+          "name": "revierew-name",
+          "state": "active",
+          "locked": false,
+          "avatar_url": "reviewer-avatar-url",
+          "web_url": "reviewer-web-url"
+        }
+      ],
+      "source_project_id": 1,
+      "target_project_id": 1,
+      "labels": [],
+      "draft": false,
+      "imported": false,
+      "imported_from": "none",
+      "work_in_progress": false,
+      "milestone": null,
+      "merge_when_pipeline_succeeds": false,
+      "merge_status": "unchecked",
+      "detailed_merge_status": "unchecked",
+      "merge_after": null,
+      "sha": "a7b48adbba10735801c6b2dba21c87f450331bfd",
+      "merge_commit_sha": null,
+      "squash_commit_sha": null,
+      "discussion_locked": null,
+      "should_remove_source_branch": null,
+      "force_remove_source_branch": true,
+      "prepared_at": "2025-08-22T11:27:22.028Z",
+      "reference": "!1",
+      "references": {
+        "short": "!1",
+        "relative": "!1",
+        "full": "a/b/c!1"
+      },
+      "web_url": "web-url",
+      "time_stats": {
+        "time_estimate": 0,
+        "total_time_spent": 0,
+        "human_time_estimate": null,
+        "human_total_time_spent": null
+      },
+      "squash": true,
+      "squash_on_merge": true,
+      "task_completion_status": {
+        "count": 8,
+        "completed_count": 4
+      },
+      "has_conflicts": false,
+      "blocking_discussions_resolved": true,
+      "approvals_before_merge": null,
+      "changes_count": "2",
+      "diff_refs": {
+        "base_sha": "9fd02f5e9705d5046d51e9f9b33eeed87b1f760f",
+        "head_sha": "a7b48adbba10735801c6b2dba21c87f450331bfd",
+        "start_sha": "9fd02f5e9705d5046d51e9f9b33eeed87b1f760f"
+      },
+      "merge_error": null,
+      "user": {
+        "can_merge": false
+      }
+    },
+    "target_url": "activity-url",
+    "body": "activity-body",
+    "state": "pending",
+    "created_at": "2025-08-22T11:27:16.321Z",
+    "updated_at": "2025-08-22T11:27:16.321Z"
+  }
