@@ -20,3 +20,7 @@ pub fn parse_review_requested_correctly_returns_an_activity_test() {
   assert activity.author.web_url == "web-url"
   assert activity.author.id == 3
 }
+
+pub fn parse_review_requested_returns_an_error_if_malformed_test() {
+  let assert Error(_) = todo_parser.parse("not-json")
+}

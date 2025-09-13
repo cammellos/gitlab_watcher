@@ -1,6 +1,4 @@
-import gleam/dynamic
 import gleam/dynamic/decode
-import gleam/io
 import gleam/json
 
 pub type ActivityType {
